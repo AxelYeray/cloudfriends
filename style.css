@@ -54,10 +54,10 @@ body{
     max-width: 80%;
 }
 .mock::before{
-    content:"🖼️";
     font-size:38px;
     opacity:.85;
 }
+
 .promo h2{
     font-size: clamp(20px, 3vw, 28px);
     font-weight:800;
@@ -81,6 +81,11 @@ body{
     text-align:center;
     margin-bottom:16px;
 }
+
+.logo{
+    max-width: 100%;
+}
+
 .badge{
     width:60px;height:60px;border-radius:999px;
     display:grid;place-items:center;margin:0 auto 10px;
