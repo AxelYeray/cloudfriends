@@ -1,0 +1,105 @@
+:root {
+    --primary: #112959;
+    --secondary: #277740;
+    --bg: #f9fafb;
+    --card: #fff;
+    --text: #1e293b;
+    --muted: #64748b;
+    --radius: 12px;
+    --shadow: 0 2px 6px rgba(0,0,0,.06);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+    font-family: system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 20px;
+}
+
+header{
+    margin-bottom: 20px;
+}
+header h1{
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--primary);
+}
+header p{color: var(--muted)}
+
+.highlight{
+    background: linear-gradient(90deg, var(--primary), var(--secondary));
+    color: #fff;
+    border-radius: var(--radius);
+    padding: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+}
+.highlight button{
+    background:#fff;color:var(--primary);
+    padding:10px 16px;border-radius:8px;
+    border:0;font-weight:600;cursor:pointer;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+    gap:14px;
+    margin-bottom: 24px;
+}
+.stat{
+    background:var(--card);
+    border-radius:var(--radius);
+    padding:16px;
+    text-align:center;
+    box-shadow:var(--shadow);
+}
+.stat strong{font-size:22px;display:block;margin-bottom:6px}
+.stat span{color:var(--muted);font-size:14px}
+
+main{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap:20px;
+}
+
+.card{
+    background:var(--card);
+    border-radius:var(--radius);
+    padding:16px;
+    box-shadow:var(--shadow);
+    margin-bottom:20px;
+}
+.card h2{font-size:18px;margin-bottom:12px}
+.course{
+    border:1px solid #e5e7eb;
+    border-radius:var(--radius);
+    padding:12px;
+    margin-bottom:10px;
+}
+.course strong{display:block;font-size:15px}
+.course span{color:var(--muted);font-size:13px}
+.progress{
+    height:8px;background:#e5e7eb;border-radius:6px;margin-top:6px;
+}
+.progress div{
+    height:100%;border-radius:6px;
+    background:var(--secondary);
+    width:65%;
+}
+
+.expert, .university{
+    border:1px solid #e5e7eb;
+    border-radius:var(--radius);
+    padding:12px;
+    margin-bottom:8px;
+    font-size:14px;
+}
+.expert strong, .university strong{display:block}
+
+@media(max-width:900px){
+    main{grid-template-columns:1fr}
+}
