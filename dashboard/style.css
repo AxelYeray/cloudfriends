@@ -74,6 +74,12 @@ main{
     margin-bottom:20px;
 }
 .card h2{font-size:18px;margin-bottom:12px}
+
+.logo{
+    max-width: 10%;
+    margin-right: 20px;
+}
+
 .course{
     border:1px solid #e5e7eb;
     border-radius:var(--radius);
