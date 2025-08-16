@@ -44,6 +44,10 @@ header p{color: var(--muted)}
     border:0;font-weight:600;cursor:pointer;
 }
 
+button{
+    margin-top: 10px;
+}
+
 .stats{
     display:grid;
     grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
@@ -113,5 +117,11 @@ main{
 @media(max-width:800px){
     .logo{
         display: none;
+    }
+}
+
+@media(max-width:630px){
+    .highlight{
+        text-align: center;
     }
 }
