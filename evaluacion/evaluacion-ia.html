@@ -9,19 +9,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <link href="/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="shortcut icon" href="/Multimedia/cloud-library.png" type="image/x-icon">
 </head>
 <body class="chat-page">
     <!-- Header -->
     <nav class="navbar navbar-dark bg-primary-custom">
         <div class="container-fluid">
-            <a class="navbar-brand" href="dashboard.html">
+            <a class="navbar-brand" href="/dashboard/dashboard.html">
                 <i class="fas fa-arrow-left me-2"></i>
-                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/ai-career-guidance-SRvmWvJDHT8qrgwnsw8eIdJfKanzQJ.png" alt="Logo" width="30" height="30" class="me-2">
+                <img src="/Multimedia/cloud-library.png" alt="Logo" width="30" height="30" class="me-2">
                 Evaluación Vocacional IA
             </a>
             <div class="navbar-nav">
-                <a class="nav-link" href="dashboard.html">
+                <a class="nav-link" href="/dashboard/dashboard.html">
                     <i class="fas fa-times"></i>
                 </a>
             </div>
@@ -79,7 +80,7 @@
                     <form id="chatForm" class="d-flex gap-2">
                         <input type="text" class="form-control" id="messageInput" placeholder="Escribe tu respuesta aquí..." required>
                         <button type="submit" class="btn btn-success-custom">
-                            <i class="fas fa-paper-plane"></i>
+                            <i class="bi bi-caret-right-fill send"></i>
                         </button>
                     </form>
                 </div>
@@ -114,10 +115,10 @@
                     <div class="tips-card">
                         <h6><i class="fas fa-lightbulb me-2"></i>Consejos</h6>
                         <ul class="text-muted mb-0">
-                            <li>Sé honesto en tus respuestas</li>
-                            <li>No hay respuestas correctas o incorrectas</li>
-                            <li>Piensa en lo que realmente te gusta</li>
-                            <li>Considera tus fortalezas naturales</li>
+                            <li class="tips">Sé honesto en tus respuestas</li>
+                            <li class="tips">No hay respuestas correctas o incorrectas</li>
+                            <li class="tips">Piensa en lo que realmente te gusta</li>
+                            <li class="tips">Considera tus fortalezas naturales</li>
                         </ul>
                     </div>
                 </div>
