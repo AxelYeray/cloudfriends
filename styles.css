@@ -22,6 +22,10 @@ body {
   width: 40%;
 }
 
+.right{
+  width: 40%;
+}
+
 .img-fluid{
   text-align: center;
 }
