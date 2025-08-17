@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Orientación Vocacional IA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="dashboard-page">
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="cloud-library.png" alt="Logo" width="40" height="40" class="me-2">
+                Orientación Vocacional IA
+            </a>
+            
+            <div class="navbar-nav ms-auto">
+                <div class="nav-item dropdown">
+                    <a class="nav-link1 dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown">
+                        <div class="avatar me-2">
+                            <img src="avatar2.webp" class="avatar" alt="">
+                        </div>
+                        <span>Axel Yeray</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-user me-2"></i>Perfil</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-cog me-2"></i>Configuración</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="index.html"><i class="fas fa-sign-out-alt me-2"></i>Cerrar Sesión</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <div class="position-sticky pt-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"><i class="fas fa-home me-2"></i>Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-book me-2"></i>Mis Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-calendar me-2"></i>Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-users me-2"></i>Mentores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="evaluacion-ia.html"><i class="fas fa-robot me-2"></i>Evaluación IA</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main content -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">¡Hola! 👋</h1>
+                </div>333
+
+                <!-- IA Section -->
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="card ai-card">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-md-8">
+                                        <h4 class="card-title mb-3">🤖 Descubre nuestra IA para Vocación Profesional</h4>
+                                        <p class="card-text mb-3">
+                                            Nuestra inteligencia artificial analiza tu personalidad, intereses y habilidades 
+                                            para recomendarte las carreras universitarias más adecuadas para ti.
+                                        </p>
+                                        <a href="evaluacion-ia.html" class="btn btn-success-custom">
+                                            <i class="fas fa-play me-2"></i>Comenzar Evaluación IA
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4 text-center">
+                                        <i class="fas fa-robot ai-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Content Sections -->
+                <div class="row">
+                    <!-- Cursos Relevantes -->
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0"><i class="fas fa-book me-2"></i>Cursos Relevantes</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="course-item mb-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h6 class="mb-1">Introducción a la Programación</h6>
+                                            <small class="text-muted">Tecnología</small>
+                                        </div>
+                                        <span class="badge bg-success">Nuevo</span>
+                                    </div>
+                                    <div class="progress mt-2" style="height: 5px;">
+                                        <div class="progress-bar" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                                <div class="course-item mb-3">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h6 class="mb-1">Marketing Digital</h6>
+                                            <small class="text-muted">Negocios</small>
+                                        </div>
+                                        <span class="badge bg-primary">En progreso</span>
+                                    </div>
+                                    <div class="progress mt-2" style="height: 5px;">
+                                        <div class="progress-bar" style="width: 65%"></div>
+                                    </div>
+                                </div>
+                                <div class="course-item">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h6 class="mb-1">Diseño UX/UI</h6>
+                                            <small class="text-muted">Diseño</small>
+                                        </div>
+                                        <span class="badge bg-warning">Recomendado</span>
+                                    </div>
+                                    <div class="progress mt-2" style="height: 5px;">
+                                        <div class="progress-bar" style="width: 0%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Eventos Próximos -->
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0"><i class="fas fa-calendar me-2"></i>Próximos Eventos</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="event-item mb-3">
+                                    <div class="d-flex">
+                                        <div class="event-date me-3">
+                                            <div class="text-center">
+                                                <div class="day">15</div>
+                                                <div class="month">ENE</div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-1">Feria de Universidades 2025</h6>
+                                            <small class="text-muted">10:00 AM - Centro de Convenciones</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event-item mb-3">
+                                    <div class="d-flex">
+                                        <div class="event-date me-3">
+                                            <div class="text-center">
+                                                <div class="day">22</div>
+                                                <div class="month">ENE</div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-1">Webinar: Carreras del Futuro</h6>
+                                            <small class="text-muted">7:00 PM - Online</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="event-item">
+                                    <div class="d-flex">
+                                        <div class="event-date me-3">
+                                            <div class="text-center">
+                                                <div class="day">28</div>
+                                                <div class="month">ENE</div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-1">Taller de Habilidades Blandas</h6>
+                                            <small class="text-muted">2:00 PM - Aula Virtual</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Expertos y Mentores -->
+                    <div class="col-lg-6 mb-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h5 class="mb-0"><i class="fas fa-users me-2"></i>Expertos y Mentores</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="mentor-item mb-3">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mentor-avatar me-3">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h6 class="mb-1">Dr. Carlos Mendoza</h6>
+                                            <small class="text-muted">Especialista en Ingeniería</small>
+                                        </div>
+                                        <button class="btn btn-sm btn-outline-primary">Contactar</button>
+                                    </div>
+                                </div>
+                                <div class="mentor-item mb-3">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mentor-avatar me-3">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h6 class="mb-1">Lic. Ana Rodríguez</h6>
+                                            <small class="text-muted">Experta en Psicología</small>
+                                        </div>
+                                        <button class="btn btn-sm btn-outline-primary">Contactar</button>
+                                    </div>
+                                </div>
+                                <div class="mentor-item">
+                                    <div class="d-flex align-items-center">
+                                        <div class="mentor-avatar me-3">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <h6 class="mb-1">Mg. Luis Torres</h6>
+                                            <small class="text-muted">Consultor en Negocios</small>
+                                        </div>
+                                        <button class="btn btn-sm btn-outline-primary">Contactar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
