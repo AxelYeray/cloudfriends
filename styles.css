@@ -18,6 +18,10 @@ body {
   height: 100vh;
 }
 
+.left{
+  width: 40%;
+}
+
 .img-fluid{
   text-align: center;
 }
